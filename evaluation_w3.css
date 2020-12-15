@@ -1,9 +1,4 @@
-.global{
-    width: 1520px;
-    height: 700px;
-    
-    
-}
+
 *{
     font-family: Arial, sans-serif;
 }
@@ -41,13 +36,18 @@ header > a,i,button{
     justify-content: center ;
     
     
+    
 }
 img{
     max-width: 750px;
     height: 180px;
+    align-self: center;  
 }
 nav{
-    margin-top: 20px;    
+    margin-bottom: 150px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .formulaire{
     display: flex;
@@ -61,20 +61,37 @@ nav{
 .divRecherche{
     margin-top: 20px;
 }
-#search{
-    position: absolute;
-    padding-right: 450px;
-    padding-bottom: 69px;
-    font-size:15px ;
-    color:  rgb(215, 217, 223); ;
-}
 
+.divSearch{
+    border: 1px solid #ddd;    
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+#searchIcone{
+    
+    font-size:15px ;
+    color:  rgb(215, 217, 223); 
+ 
+}
+#google {
+    border: none;
+    flex: 1
+  }
+  
+  #searchIcone , #google {
+    padding: 10px;
+  }
+  
 input{
         padding:3px;
         border:1px solid rgb(215, 217, 223);
         border-radius:50px;
         width:500px;
         height: 30px;
+        outline: none;
 }
 
 i{
@@ -95,8 +112,10 @@ button{
     padding: 9px;
     color: rgb(148, 151, 151);
     font-weight: 550;
+    outline: none;
     
 }
+/*footer*/
 
 .bas{
     
@@ -104,10 +123,10 @@ button{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: rgb(226, 226, 226);
+    background-color:#f2f2f2;
     border-width:1px;
     border-style:solid;
-    border: 1px solid #adafb1;
+    border: 1px solid #caccce;
 }
 footer{
     padding-left: 20px;
@@ -115,7 +134,7 @@ footer{
     margin-bottom: 15px;
     margin-top: 15px;
     
-border-bottom: 1px solid #adafb1;
+border-bottom: 1px solid #caccce;
     
 }
 footer2{
