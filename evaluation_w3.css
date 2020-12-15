@@ -1,0 +1,139 @@
+.global{
+    width: 1520px;
+    height: 700px;
+    
+    
+}
+*{
+    font-family: Arial, sans-serif;
+}
+/*header*/
+.haut{
+    width: 1515px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center
+}
+
+header > a,i,button{
+    margin: 10px;
+}
+
+#BoutonBleu{
+    border: 0px,solid, #4285F4;
+    background-color:#4285F4;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+    padding: 1px, 5px;
+    
+}
+/*milieu*/
+.milieu{
+    width: 1515px;
+    height: 570px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    
+    
+}
+img{
+    max-width: 750px;
+    height: 180px;
+}
+nav{
+    margin-top: 20px;    
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.divRecherche{
+    margin-top: 20px;
+}
+#search{
+    position: absolute;
+    padding-right: 450px;
+    padding-bottom: 69px;
+    font-size:15px ;
+    color:  rgb(215, 217, 223); ;
+}
+
+input{
+        padding:3px;
+        border:1px solid rgb(215, 217, 223);
+        border-radius:50px;
+        width:500px;
+        height: 30px;
+}
+
+i{
+   color: rgb(97, 98, 100);
+   font-size: 20px;
+}
+
+a {
+    color: rgb(116, 118, 122);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+button{
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 9px;
+    color: rgb(148, 151, 151);
+    font-weight: 550;
+    
+}
+
+.bas{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(226, 226, 226);
+    border-width:1px;
+    border-style:solid;
+    border: 1px solid #adafb1;
+}
+footer{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+border-bottom: 1px solid #adafb1;
+    
+}
+footer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    margin-bottom: 10px;
+  
+    
+}
+
+.Gauche a{
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+}
+.Droite a{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
